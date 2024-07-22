@@ -3,7 +3,7 @@ import os
 
 ip_index = os.environ.get("ORBIT_IP_INDEX")
 ip_name = os.environ.get("ORBIT_IP_NAME")
-ip_version = os.environ.get("ORBIT_IP") 
+ip_version = os.environ.get("ORBIT_IP_VERSION") 
 
 # Add untracked files
 child = subprocess.Popen(['git', 'add', ip_index])
