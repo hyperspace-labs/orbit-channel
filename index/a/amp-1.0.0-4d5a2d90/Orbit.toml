@@ -1,0 +1,10 @@
+[ip]
+name = "amp"
+description = "More types and elementary functions"
+version = "1.0.0"
+library = "nano"
+channels = ["hyperspace-labs"]
+public = ["/src"]
+
+[ip.source]
+url = "https://github.com/hyperspace-labs/amp/archive/refs/tags/{{orbit.ip.version}}.zip"
