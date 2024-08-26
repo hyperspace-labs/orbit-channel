@@ -1,6 +1,6 @@
 # Orbit Channel 
 
-A decentralized registry of released ip by Hyperspace Labs for [Orbit](https://github.com/cdotrus/orbit), an agile package manager and extensible build tool for hardware description languages (HDLs).
+A decentralized registry of released ip by Hyperspace Labs for [Orbit](https://github.com/chaseruskin/orbit), an agile package manager and extensible build tool for hardware description languages (HDLs).
 
 ## Installing
 
@@ -15,5 +15,5 @@ git clone https://github.com/hyperspace-labs/orbit-channel.git "$(orbit env ORBI
 2. Link the channel in the home configuration using `orbit`:
 
 ```
-orbit config --append include="channels/hyperspace-labs/config.toml"
+orbit config --push include="channels/hyperspace-labs/config.toml"
 ```
