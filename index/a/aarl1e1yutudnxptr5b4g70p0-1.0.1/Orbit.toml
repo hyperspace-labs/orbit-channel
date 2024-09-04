@@ -1,0 +1,11 @@
+[ip]
+name = "amp"
+uuid = "aarl1e1yutudnxptr5b4g70p0"
+version = "1.0.1"
+library = "nano"
+description = "More types and elementary functions"
+channels = ["hyperspace-labs"]
+public = ["/src"]
+
+[ip.source]
+url = "https://github.com/hyperspace-labs/amp/archive/refs/tags/{{orbit.ip.version}}.zip"
